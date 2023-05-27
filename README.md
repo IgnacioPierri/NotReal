@@ -13,6 +13,8 @@ El proyecto Not Real surgió como parte de un desafío en Makers, una comunidad 
 3. El sistema analizará el contenido en busca de palabras y frases sospechosas.
 4. Si se encuentra alguna coincidencia, se marcará como sospechoso, en cambio, si no encuentra ninguna coincidencia, se marcará como seguro.
 
+[Not Real](https://notreal.site/)
+
 Simplemente pega el contenido del correo electrónico en el campo de texto y haz clic en el botón "Verificar". La herramienta analizará el contenido en busca de palabras y frases sospechosas y te mostrará si el correo electrónico parece ser seguro o sospechoso.
 
 Recuerda que Not Real solo proporciona una evaluación inicial y no garantiza la veracidad del correo electrónico. Utilízalo como referencia y siempre actúa con precaución.
@@ -32,3 +34,46 @@ Desarrollado por [Ignacio Pierri](https://linktr.ee/ignacio.p)
 
 
 ¡Disfruta utilizando Not Real para verificar la autenticidad de tus correos electrónicos!
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+# Not Real
+
+## Description
+Not Real is an online tool that allows you to verify the authenticity of an email. Simply paste the email content, and it will analyze suspicious words and phrases in search of malicious matches, indicating whether it appears to be safe or suspicious. It is important to remember that Not Real provides an initial evaluation and does not guarantee the truthfulness of the email. Always exercise caution when interacting with unsolicited messages.
+
+## Project Origin
+The Not Real project originated as part of a challenge at Makers, a community for learning and technological development. It was created as a personal initiative to enhance online security and raise awareness about fraudulent emails. During the challenge, the goal was to create a solution that would provide individuals with an initial assessment of the authenticity of messages, enabling them to make informed decisions when interacting with them.
+
+## How It Works
+
+1. Enter the email content in the provided text area.
+2. Click the "Verify" button or press Enter.
+3. The system will analyze the content for suspicious words and phrases.
+4. If any matches are found, it will be marked as suspicious. If no matches are found, it will be marked as safe.
+
+[Not Real](https://notreal.site/)
+
+Simply paste the email content into the text field and click the "Verify" button. The tool will analyze the content for suspicious words and phrases, showing you whether the email appears to be safe or suspicious.
+
+Remember that Not Real provides only an initial evaluation and does not guarantee the truthfulness of the email. Use it as a reference and always exercise caution.
+
+## Collaboration
+You can contribute to improving Not Real by sharing any fraudulent emails you have received. This information will help us enhance our detection algorithm. Simply fill out the form [here](https://forms.gle/EiJa9sESDjJRsts98) with the email details.
+
+## License
+The Not Real project is distributed under the following license:
+
+[Copyright © 2023 Ignacio Pierri]
+
+Unauthorized use of this project is prohibited, as all copyright and intellectual property rights are exclusively owned by the license holder.
+
+## Creator
+Developed by [Ignacio Pierri](https://linktr.ee/ignacio.p)
+
+Enjoy using Not Real to verify the authenticity of your emails!
+
