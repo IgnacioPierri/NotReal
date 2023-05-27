@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Real</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    
+    <!-- Partículas de fondo -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Encabezado -->
+    <header>
+        <!-- Título principal -->
+        <h1 class="title">Not Real</h1>
+     
+        
+        <!-- Descripción -->
+        <p class="subtitle">Ingresa el contenido de tu correo electrónico y verifica su seguridad.</p>
+        
+        <!-- Botón "Cómo funciona" -->
+        <button id="howItWorksButton" onclick="toggleHowItWorks()">¿Cómo funciona?</button>
+        <!-- Información adicional "Cómo funciona" -->
+        <div id="howItWorksInfo" style="display: none;">
+            <p>Not Real es una herramienta en línea que te permite verificar la autenticidad de un correo electrónico.</p>
+            <p>Simplemente pega el contenido del email y analizará palabras y frases sospechosas en busca de coincidencias malignas y te mostrará si parece ser seguro o sospechoso.</p>
+            <p>Recuerda que solo proporciona una evaluación inicial y no garantiza la veracidad del correo electrónico. Utilizar como referencia y siempre actuar con precaución.</p>
+            <p>Mensajes de estafas mas populares</p>
+            <p>"Free ETH" - "Please confirm the payment" - "Keep your account access secure" - "Free tokens to our loyal users" - "Claim your NFT"</p>
+       
+        </div>
+
+
+        <!-- Botón "Colaborar" -->
+        <button id="colaborarButton" onclick="colaborar()">Colaborar</button>
+        <!-- Información adicional "Colaborar" -->
+        <div id="colaborarInfo" style="display: none;">
+            <p>Puedes ayudarnos compartiendo correos fraudulentos que hayas recibido para agregar esos parámetros a nuestra base de datos.</p>
+            <p><a href="https://forms.gle/EiJa9sESDjJRsts98" target="_blank">Expandir base de datos</a></p>
+        </div>
+    </header>
+
+
+    <!-- Contenido principal -->
+    <main>
+        <div class="container">
+            <!-- Área de texto para el contenido del correo electrónico -->
+            <textarea id="emailContent" placeholder="Pega aquí el contenido del correo electrónico"></textarea>
+            <!-- Botón "Verificar" -->
+            <button id="checkButton">Verificar</button>
+            <!-- Resultado de la verificación -->
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- Información del desarrollador -->
+        <p>Desarrollado por <a href="https://linktr.ee/ignacio.p" target="_blank">Ignacio Pierri</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Biblioteca de partículas -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Archivo de JavaScript personalizado -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

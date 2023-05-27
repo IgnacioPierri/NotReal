@@ -1,0 +1,210 @@
+/* Configuración general */
+* {
+    box-sizing: border-box;
+}
+
+
+/* Estilos del cuerpo de la página */
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background: #171717;
+    min-height: 100vh;
+}
+
+
+/* Estilos del fondo de partículas */
+#particles-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/* Estilos del encabezado */
+header {
+    background-color: transparent;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* Estilos del contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Estilos del textarea */
+textarea {
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #171717;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+/* Estilos del botón */
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #171717;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+/* Estilos del título */
+.title {
+    font-size: 60px;
+}
+
+
+/* Estilos del subtítulo */
+.subtitle {
+    font-size: 20px;
+}
+
+
+/* Estilos de los botones "Cómo funciona" y "Colaborar" */
+#howItWorksButton,
+#colaborarButton {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#colaborarButton {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* Estilos de la sección "Cómo funciona" */
+#howItWorksInfo {
+    display: none;
+    text-align: center;
+}
+
+
+/* Estilos en el hover del botón */
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* Estilos del resultado */
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Estilos del pie de página */
+footer {
+    background-color: transparent;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* Estilos de los enlaces en el pie de página */
+footer a {
+    color: #4caf50;
+}
+
+
+/* Estilos en el hover de los enlaces en el pie de página */
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos del lienzo de partículas y del texto */
+#canvas,
+#text {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+/* Estilos del texto */
+#text {
+    min-height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    color: #a2a0a0;
+    text-transform: uppercase;
+    font-size: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Estilos del título dentro del texto */
+#text h1 {
+    opacity: 0.9
+}
+
+
+/* Estilos de los elementos h1, p y del placeholder del email */
+h1,
+p,
+#emailContent::placeholder {
+    color: #a2a0a0;
+    text-align: center;
+}
+
+
+/* Regla para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    textarea {
+        min-height: 100px;
+        max-height: 100px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
